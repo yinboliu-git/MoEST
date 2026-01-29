@@ -1,0 +1,37 @@
+{
+  "architecture": "vit_large_patch16_224",
+  "patch_size": 16,
+  "img_size": 224,
+  "init_values": 1.0,
+  "num_classes": 0,
+  "num_features": 1024,
+  "global_pool": "token",
+  "dynamic_img_size": true,
+  "pretrained_cfg": {
+    "tag": "uni_mass100k",
+    "custom_load": true,
+    "crop_pct": 1,
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "fixed_input_size": false,
+    "interpolation": "bilinear",
+    "mean": [
+      0.485, 
+      0.456, 
+      0.406
+    ],
+    "std": [
+      0.229, 
+      0.224, 
+      0.225
+    ],
+    "num_classes": 0,
+    "pool_size": null,
+    "first_conv": "patch_embed.proj",
+    "classifier": "head",
+    "license": "CC BY-NC-ND 4.0"
+  }
+}
