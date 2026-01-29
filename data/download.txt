@@ -1,1 +1,4 @@
-data
+Dataset	Type	Sections	Dimensions	Description
+HER2-ST	2D spatial	~10	2D coords	Breast cancer HER2+ status
+MISAR	3D spatial	~10	3D coords	Mouse embryo development
+openST	3D spatial	Multiple	3D coords	General spatial transcriptomics
