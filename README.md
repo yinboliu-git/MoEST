@@ -130,11 +130,11 @@ dataset.h5
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{3dmoest2024,
+@article{3dmoest2026,
   title={3DMoEST: Morphology-Guided Mixture of Experts for 3D Spatial Transcriptomics},
   author={Anonymous},
   journal={Under Review},
-  year={2024}
+  year={2026}
 }
 ```
 
